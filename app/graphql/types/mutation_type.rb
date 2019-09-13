@@ -10,5 +10,6 @@ module Types
     field :create_user, mutation: Mutations::CreateUser
     field :delete_user, mutation: Mutations::DeleteUser
     field :change_prescence, mutation: Mutations::ChangePrescence
+    field :update_user, mutation: Mutations::UpdateUser
   end
 end
