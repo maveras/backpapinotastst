@@ -8,6 +8,6 @@ module Types
     end
 
     field :create_user, mutation: Mutations::CreateUser
-
+    field :delete_user, mutation: Mutations::DeleteUser
   end
 end
